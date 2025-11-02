@@ -1,5 +1,13 @@
 # 🌊 ODS 14 - Vida Submarina | Agenda 2030 🌎
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
+![Django](https://img.shields.io/badge/Django-Framework-0C4B33?logo=django)
+![HTML5](https://img.shields.io/badge/HTML5-Ready-E34F26?logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-Responsive-1572B6?logo=css3)
+![Unity](https://img.shields.io/badge/Unity-WebGL%20Game-000000?logo=unity)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
+
 **ODS 14: Conservar y utilizar sosteniblemente los océanos, los mares y los recursos marinos para el desarrollo sostenible.**
 
 Este proyecto es un **sitio web educativo interactivo** con el propósito de **fomentar la conciencia ambiental** sobre la protección de la vida submarina. Forma parte de una iniciativa académica inspirada en los **Objetivos de Desarrollo Sostenible (ODS)** de las Naciones Unidas. El sitio está implementado con **Django**, estilos modulares en CSS y contiene un **minijuego WebGL (Unity)** para educación interactiva.
