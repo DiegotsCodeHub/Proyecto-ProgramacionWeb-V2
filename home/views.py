@@ -1,30 +1,28 @@
 from django.shortcuts import render
 
 def index(request):
-    return render(request, "home/index.html", {})
-
-def memorama_view(request):
-    return render(request, 'Memo/memorama.html',{})
-
+    return render(request, "index.html", {})
 
 def Web_view(request):
-    return render(request, 'static/Web/index.html',{})
+    return render(request, 'static/Web/game.html',{})
 
 def challenges_view(request):
-    return render(request, 'home/challenges.html',{})
+    return render(request, 'challenges.html',{})
 
 def resources_view(request):
-    return render(request, 'home/resources.html',{})
+    return render(request, 'resources.html',{})
 
 def solutions_view(request):
-    return render(request, 'home/solutions.html',{})
+    return render(request, 'solutions.html',{})
 
 def takeaction_view(request):
-    return render(request, 'home/take-action.html',{})
+    return render(request, 'take-action.html',{})
 
 #css
-def stilo_view(request):
-    return render(request, 'static/style/baseStyle.css',{})
-def stilos_view(request):
-    return render(request, 'static/stiles/layout.css',{})
+def baseStyle_view(request):
+    return render(request, 'static/styles/baseStyle.css',{})
+def layoutStyle_view(request):
+    return render(request, 'static/styles/layout.css',{})
+def resourcesStyle_view(request):
+    return render(request, 'static/styles/resources.css',{})
 
