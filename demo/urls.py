@@ -22,17 +22,17 @@ from home import views  # <--- Debe ser exactamente así
 urlpatterns = [
         path('admin/', admin.site.urls),
 
-         path('', views.index, name='index'),
-        path('Memo/', views.memorama_view, name='memorama'),
-        path('static/Web/index.html', views.Web_view, name='web'),
+        path('', views.index, name='index'),
+        path('static/Web/game.html', views.Web_view, name='web'),
         path('challenges/', views.challenges_view, name='challenges'),
         path('resources/', views.resources_view, name='resources'),
         path('solutions/', views.solutions_view, name='solutions'),
         path('take-action/', views.takeaction_view, name='take-action'),
         
         #css
-        path('static/style/baseStyle.css', views.stilo_view, name='stilo'),
-        path('static/style/layout.css', views.stilos_view, name='stilos'),
+        path('static/style/baseStyle.css', views.baseStyle_view, name='baseStyle'),
+        path('static/style/layout.css', views.layoutStyle_view, name='layoutStyle'),
+        path('static/style/resources.css', views.resourcesStyle_view, name='resourcesStyle'),
 
 
 
