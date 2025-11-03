@@ -53,7 +53,7 @@ static/
 ├─ styles/
 │ ├─ baseStyle.css
 │ ├─ layout.css
-│ ├─ index.css
+│ ├─ gameStyle.css
 │ └─ resources.css
 ├─ images/ # imágenes usadas en las páginas (challenges, solutions, recursos)
 └─ Web/ # Build Unity WebGL (Build/, TemplateData/)

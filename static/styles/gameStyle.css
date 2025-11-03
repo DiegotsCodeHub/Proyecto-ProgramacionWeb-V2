@@ -1,0 +1,12 @@
+
+/* Si quieres más separación visual */
+#unity-canvas {
+    align-content: center;
+    margin-top: -230px; /* separa el canvas del header */
+    margin-bottom: 30px; /* separa aún más el canvas del footer */
+}
+
+/* === Footer fijo al final sin superponer === */
+footer {
+    margin-top: 87.5vh; /* empuja el footer al final de la página */
+}
