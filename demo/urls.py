@@ -23,7 +23,7 @@ urlpatterns = [
         path('admin/', admin.site.urls),
 
         path('', views.index, name='index'),
-        path('static/Web/game.html', views.Web_view, name='web'),
+        path('templates/game.html/', views.Web_view, name='web'),
         path('challenges/', views.challenges_view, name='challenges'),
         path('resources/', views.resources_view, name='resources'),
         path('solutions/', views.solutions_view, name='solutions'),
@@ -33,15 +33,7 @@ urlpatterns = [
         path('static/style/baseStyle.css', views.baseStyle_view, name='baseStyle'),
         path('static/style/layout.css', views.layoutStyle_view, name='layoutStyle'),
         path('static/style/resources.css', views.resourcesStyle_view, name='resourcesStyle'),
-
-
-
-
-
-
-
-
-
+        path('static/style/gameStyle.css', views.gameStyle_view, name='gameStyle')
 ]
 
 

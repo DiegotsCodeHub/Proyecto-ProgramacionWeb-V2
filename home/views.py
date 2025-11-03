@@ -4,7 +4,7 @@ def index(request):
     return render(request, "index.html", {})
 
 def Web_view(request):
-    return render(request, 'static/Web/game.html',{})
+    return render(request, 'game.html',{})
 
 def challenges_view(request):
     return render(request, 'challenges.html',{})
@@ -25,4 +25,6 @@ def layoutStyle_view(request):
     return render(request, 'static/styles/layout.css',{})
 def resourcesStyle_view(request):
     return render(request, 'static/styles/resources.css',{})
+def gameStyle_view(request):
+    return render(request, 'static/styles/gameStyle.css',{})
 
