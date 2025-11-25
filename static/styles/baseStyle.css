@@ -160,3 +160,43 @@ h2 {
 .cta:hover {
     background: var(--secondary-color);
 }
+
+.challenge-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;               /* espacio entre texto e imagen */
+    margin-bottom: 40px;     /* separación entre secciones */
+}
+
+.challenge-text {
+    flex: 1;                 /* ocupa la mayor parte del espacio */
+}
+
+.challenge-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    object-fit: cover;
+    flex-shrink: 0;          /* evita que la imagen se deforme */
+}
+
+.solution-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;               /* espacio entre texto e imagen */
+    margin-bottom: 40px;     /* separación entre secciones */
+}
+
+.solution-text {
+    flex: 1;                 /* ocupa la mayor parte del espacio */
+}
+
+.solution-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    object-fit: cover;
+    flex-shrink: 0;          /* evita que la imagen se deforme */
+}

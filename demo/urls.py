@@ -28,6 +28,8 @@ urlpatterns = [
         path('resources/', views.resources_view, name='resources'),
         path('solutions/', views.solutions_view, name='solutions'),
         path('take-action/', views.takeaction_view, name='take-action'),
+        path('login/', views.login_view, name='login'),
+        path('register/', views.register_view, name='register'),
         
         #css
         path('static/style/baseStyle.css', views.baseStyle_view, name='baseStyle'),
