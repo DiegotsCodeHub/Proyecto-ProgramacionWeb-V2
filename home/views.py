@@ -18,6 +18,12 @@ def solutions_view(request):
 def takeaction_view(request):
     return render(request, 'take-action.html',{})
 
+def login_view(request):
+    return render(request, 'login.html',{})
+
+def register_view(request):
+    return render(request, 'register.html',{})
+
 #css
 def baseStyle_view(request):
     return render(request, 'static/styles/baseStyle.css',{})
