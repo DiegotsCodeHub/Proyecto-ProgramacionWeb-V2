@@ -1,8 +1,7 @@
-
 /* Si quieres más separación visual */
 #unity-canvas {
     align-content: center;
-    margin-top: -170px; /* separa el canvas del header */
+    margin-top: -297px; /* separa el canvas del header */
 }
 
 /* === Footer fijo al final sin superponer === */

@@ -21,7 +21,15 @@
                 <li><a href="{% url 'challenges' %}">Desafíos</a></li>
                 <li><a href="{% url 'solutions' %}">Soluciones</a></li>
                 <li><a href="{% url 'resources' %}">Recursos</a></li>
+                <li><a href="{% url 'profile' %}">Perfil</a></li>
                 <li><a href="{% url 'web' %}">Toma Acción</a></li>
+                <li>
+                    {% if user.is_authenticated %}
+                    <a href="{% url 'logout' %}">Cerrar Sesión ({{ user.username }})</a>
+                    {% else %}
+                    <a href="{% url 'login' %}">Iniciar Sesión</a>
+                    {% endif %}
+                </li>
             </ul>
         </nav>
     </header>
@@ -135,7 +143,7 @@
                 <h2 id="cta-title"><i class="fa-solid fa-hand-holding-water"></i> Súmate al cambio</h2>
                 <p>La conservación de los océanos depende de la acción conjunta. Puedes participar en campañas de
                     limpieza,reducir tu consumo de plásticos y apoyar proyectos sostenibles.</p>
-                <a href="{% url 'take-action' %}" class="cta">Participa Ahora</a>
+                <a href="{% url 'resources' %}" class="cta">Participa Ahora</a>
             </div>
         </section>
 
