@@ -21,7 +21,15 @@
           <li><a href="{% url 'challenges' %}">Desafíos</a></li>
           <li><a href="{% url 'solutions' %}" class="active">Soluciones</a></li>
           <li><a href="{% url 'resources' %}">Recursos</a></li>
+          <li><a href="{% url 'profile' %}">Perfil</a></li>
           <li><a href="{% url 'web' %}">Toma Acción</a></li>
+            <li>
+                {% if user.is_authenticated %}
+                <a href="{% url 'logout' %}">Cerrar Sesión ({{ user.username }})</a>
+                {% else %}
+                <a href="{% url 'login' %}">Iniciar Sesión</a>
+                {% endif %}
+            </li>
         </ul>
       </nav>
     </header>
